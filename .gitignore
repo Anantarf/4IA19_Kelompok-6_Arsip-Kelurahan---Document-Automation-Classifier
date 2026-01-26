@@ -1,0 +1,99 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Frontend
+node_modules/
+dist/
+build/
+.pnp
+.pnp.js
+frontend/node_modules/
+frontend/dist/
+
+# Database & Local Data
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+storage/arsip_kelurahan/**/*.pdf
+storage/arsip_kelurahan/**/*.docx
+storage/arsip_kelurahan/**
+storage/uploads/
+storage/tmp_ocr/
+storage/tmp_test/
+app/storage/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Test & Debug files
+dev-scripts/
+SURATLURAH/
+temp_*.txt
+debug_*.py
+test_*.py
+show_*.py
+CODE_OPTIMIZATION_REPORT.md
+FRONTEND_UPDATE_SUMMARY.md
+UPLOAD_FIX_REPORT.md
+temp_deployment_mysql/
+*.bak
+app.db.bak
+data/app.db.bak
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Project-specific
+.vscode/
+*.pid
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Frontend specific
+frontend/.vite/
+frontend/coverage/
